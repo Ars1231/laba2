@@ -31,7 +31,7 @@ int main() {
 	    
     
     case 2:
-	    if ( positionA.first / positionA.second == positionB.first  / positionB.second ) cout << "Threatening" << endl;
+	    if ( (positionA.first / positionA.second) == (positionB.first  / positionB.second) ) cout << "Threatening" << endl;
 	    else cout << "Not threatening" << endl;
 	   break;
 
