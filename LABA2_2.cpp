@@ -10,8 +10,14 @@ int main() {
 	using byte = unsigned char;
 	pair<byte, byte> positionA;
 	pair<byte, byte> positionB;
-    int x;
- 
+   	int x;
+ 	cout << "Чтобы проверить ладью, введите 1. 
+		Чтобы проверить слона, введите 2. 
+		Чтобы проверить ферзя, введите 3.
+		Чтобы проверить короля, введите 4.
+		Чтобы проверить пешку на ход, введите 5.
+		Чтобы проверить пешку на битье, введите 6." << endl;
+	
     
     while (true){
  
@@ -20,6 +26,7 @@ int main() {
 
     cout << "Enter position B (c d): " << "\n";
     cin >> positionB.first >> positionB.second;
+	    
     cin>>x;
     
     switch(x){
