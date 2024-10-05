@@ -53,7 +53,7 @@ int main() {
 
     
     case 4:
-	    if ( (positionA.first == positionB.first || positionA.second == positionB.second) || ( (positionA.first / positionB.first) == (positionA.second / positionB.second) ) ) cout << "Threatening" << endl;
+	    if ( (positionA.first == positionB.first || positionA.second == positionB.second) || ( abs(positionA.first - positionB.first) == abs(positionA.second  -  positionB.second) ) ) cout << "Threatening" << endl;
 	    else cout << "Not threatening" << endl;
 	    break;
 
