@@ -60,7 +60,7 @@ int main() {
 	   	else cout << "condition is false" << endl;
 
 		break;
-	case 7:
+	case 0:
 		return 0;
 	
 	}
