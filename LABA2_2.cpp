@@ -67,7 +67,7 @@ int main() {
 	    else cout << "Not threatening 'second condition'" << endl;
 	    break;
 	    
-    case 7:
+    case 0:
     	return 0;
   
     }
