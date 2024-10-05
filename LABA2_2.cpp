@@ -20,14 +20,15 @@ int main() {
 	
     
     while (true){
- 
+	    
+    cin>>x;
     cout << "Enter position A (a b): ";
     cin >> positionA.first >> positionA.second;
 
     cout << "Enter position B (c d): " << "\n";
     cin >> positionB.first >> positionB.second;
 	    
-    cin>>x;
+   
     
     switch(x){
     
